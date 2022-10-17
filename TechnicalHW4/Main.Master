@@ -15,7 +15,7 @@
 </head>
 <body>
        <div>
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg sticky-top">
               <span class="navbar-brand" href="#">
                  <img src="images/vet.png" width="50" height="50" class="d-inline-block align-top m-3" alt="">
               </span>

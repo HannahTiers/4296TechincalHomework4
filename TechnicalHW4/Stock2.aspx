@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="Stock.aspx.cs" Inherits="TechnicalHW4.Stock" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="Stock2.aspx.cs" Inherits="TechnicalHW4.Stock2" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="Stock.css" rel="stylesheet">
 </asp:Content>
@@ -7,61 +7,61 @@
     <div class="container mt-5 mb-5">
         <ul class="list-group">
           <li class="list-group-item d-flex justify-content-between align-items-center">
-              Medication 1
+              Medication 11
               <span class="badge bg-success rounded-pill">In Stock</span>
           </li>
         </ul>
         <ul class="list-group">
           <li class="list-group-item d-flex justify-content-between align-items-center">
-              Medication 2
+              Medication 12
               <span class="badge bg-warning rounded-pill">Low Stock</span>
           </li>
         </ul>
         <ul class="list-group">
           <li class="list-group-item d-flex justify-content-between align-items-center">
-              Medication 3
+              Medication 13
               <span class="badge bg-danger rounded-pill">Out of Stock</span>
           </li>
         </ul>
         <ul class="list-group">
           <li class="list-group-item d-flex justify-content-between align-items-center">
-              Medication 4
+              Medication 14
               <span class="badge bg-success rounded-pill">In Stock</span>
           </li>
         </ul>
         <ul class="list-group">
           <li class="list-group-item d-flex justify-content-between align-items-center">
-              Medication 5
+              Medication 15
               <span class="badge bg-success rounded-pill">In Stock</span>
           </li>
         </ul>
         <ul class="list-group">
           <li class="list-group-item d-flex justify-content-between align-items-center">
-              Medication 6
+              Medication 16
               <span class="badge bg-danger rounded-pill">Out of Stock</span>
           </li>
         </ul>
         <ul class="list-group">
           <li class="list-group-item d-flex justify-content-between align-items-center">
-              Medication 7
+              Medication 17
               <span class="badge bg-success rounded-pill">In Stock</span>
           </li>
         </ul>
         <ul class="list-group">
           <li class="list-group-item d-flex justify-content-between align-items-center">
-              Medication 8
+              Medication 18
               <span class="badge bg-danger rounded-pill">Out of Stock</span>
           </li>
         </ul>
         <ul class="list-group">
           <li class="list-group-item d-flex justify-content-between align-items-center">
-              Medication 9
+              Medication 19
               <span class="badge bg-danger rounded-pill">Out of Stock</span>
           </li>
         </ul>
          <ul class="list-group">
           <li class="list-group-item d-flex justify-content-between align-items-center">
-              Medication 10
+              Medication 20
               <span class="badge bg-warning rounded-pill">Low Stock</span>
           </li>
         </ul>
@@ -69,15 +69,14 @@
     <nav id="pagination" aria-label="Page navigation example">
       <ul class="pagination d-flex justify-content-center">
         <li class="page-item">
-        </li>
-        <li class="page-item"><a class="page-link" href="#">1</a></li>
-        <li class="page-item"><a class="page-link" href="Stock2.aspx">2</a></li>
-        <li class="page-item">
-          <a class="page-link" href="Stock2.aspx" aria-label="Next">
-            <span aria-hidden="true">&raquo;</span>
+          <a class="page-link" href="Stock.aspx" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
           </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="Stock.aspx">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item">
         </li>
       </ul>
     </nav>
-    
 </asp:Content>

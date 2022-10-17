@@ -91,7 +91,7 @@
                     <input type="text" class="form-control" id="inputPrescription">
                  </div>
             </div>
-            <div class="d-flex col-12 justify-content-center mb-4 mt-4">
+            <div class="d-flex col-12 justify-content-center mb-4 mt-5">
                 <button id="orderBtn" type="button" class="btn w-50">Place Order</button>
             </div>
         </form>

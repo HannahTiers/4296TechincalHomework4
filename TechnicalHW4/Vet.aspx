@@ -17,7 +17,7 @@
                 </div>
               </div>
             </a>
-            <a class="col-5 m-auto mb-5 mt-0" id="stockLink" href="#"> 
+            <a class="col-5 m-auto mb-5 mt-0" id="stockLink" href="Stock.aspx"> 
              <div id="stock">
                 <div class="text-center">
                    Check Medication Stock
