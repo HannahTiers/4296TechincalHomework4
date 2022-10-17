@@ -1,0 +1,11 @@
+﻿body {
+    font-family: 'Lucida Sans';
+}
+
+.list-group-item{
+    font-size: 150%;
+}
+
+.badge{
+    font-size: 50%;
+}

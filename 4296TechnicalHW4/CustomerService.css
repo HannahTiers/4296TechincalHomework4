@@ -1,0 +1,21 @@
+﻿body {
+    font-family: 'Lucida Sans';
+}
+
+#update, #view {
+    border: 5px solid navy;
+    background-color: #FFFACD;
+    border-radius: 25px;
+}
+
+#updateLink, #viewLink {
+    font-size: 190%;
+    text-decoration: none;
+    color: darkolivegreen;
+    font-family: Candara;
+    font-weight: 900;
+}
+
+#updateLink:hover, #viewLink:hover {
+    opacity: .5;
+}
