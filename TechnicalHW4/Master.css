@@ -1,0 +1,29 @@
+﻿body {
+}
+
+nav {
+    font-family:'Lucida Sans';
+    background-color: #FFFACD;
+    font-size: 100%;
+    color: black;
+}
+
+h1{
+    font-family:'Lucida Sans';
+    color: navy;
+}
+
+#home {
+    background-color: navy;
+    color: #FFFACD;
+    border-color: #FFFACD;
+    font-family: 'Lucida Sans';
+    margin-right: 10px;
+}
+
+#home:hover{
+    opacity: .5;
+}
+
+
+
